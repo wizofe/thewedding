@@ -26,15 +26,15 @@ Substitute ios for android if not on a Mac.
 
 ## Deployment 
 
-[Ionic] (https://docs.ionic.io/services/deploy/) documentation has great info about deploying an ionic app. You can read everything there.
+[Ionic](https://docs.ionic.io/services/deploy/) documentation has great info about deploying an ionic app. You can read everything there.
 
 ## Built With
-* [Ionic] (http://ionicframework.com/) is the beautiful, free and open source mobile SDK for developing native and progressive web apps with ease.
-* [Visual Studio Code] 
-* [macOS X] (https://www.apple.com/macos/sierra/)  
+* [Ionic](http://ionicframework.com/) is the beautiful, free and open source mobile SDK for developing native and progressive web apps with ease.
+* [Visual Studio Code](https://code.visualstudio.com/) Extremely useful source code editor (uhm, yes by *Microsoft*.)
+* [macOS X](https://www.apple.com/macos/sierra/) Well my OS of choice. 
 
 ## Authors
-* Ioannis Valasakis <code@wizofe.uk> aka wizofe - Design and Code
+* **Ioannis Valasakis** <code@wizofe.uk> - Design and Code
 
 ## License
 This funny project is licensed through the GNU GPLv3. For more information and license details
