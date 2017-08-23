@@ -1,6 +1,8 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Wedding guide application
 
-## How to use this template
+This is a simple ionic app, created as a small gift for my sister's wedding :bowtie:, in only 48 hours, with no prior knowledge of the [Ionic](http://ionicframework.com/docs/) framework.
+
+## 
 
 *This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
