@@ -1,23 +1,21 @@
 # Wedding guide application
 
-This is a simple ionic app, created as a small gift for my sister's wedding :bowtie:, in only 48 hours, with no prior knowledge of the [Ionic](http://ionicframework.com/docs/) framework.
+This is a simple ionic app, created as a small gift for my sister's wedding :bowtie:, in just 48 hours, with no prior knowledge of the [Ionic](http://ionicframework.com/docs/) framework.
 
-## 
+## Getting Started
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+If you want to have a look at the code the most important parts exist inside 
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+* src/pages Where all the main tab html pages reside
+* src/app Splash screen call and setting the root page as the tabbed
 
-### With the Ionic CLI:
+## Prequisities
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+Of course you need to install ionic (see more on the project's doc for further information). Except this nothing special needed.
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
+### Installing 
 
-Then, to run it, cd into `myBlank` and run:
+To run and install for ios:
 
 ```bash
 $ ionic cordova platform add ios
@@ -26,3 +24,22 @@ $ ionic cordova run ios
 
 Substitute ios for android if not on a Mac.
 
+## Deployment 
+
+[Ionic] (https://docs.ionic.io/services/deploy/) documentation has great info about deploying an ionic app. You can read everything there.
+
+## Built With
+* [Ionic] (http://ionicframework.com/) is the beautiful, free and open source mobile SDK for developing native and progressive web apps with ease.
+* [Visual Studio Code] 
+* [macOS X] (https://www.apple.com/macos/sierra/)  
+
+## Authors
+* Ioannis Valasakis aka wizofe - Design and Code
+
+## License
+This funny project is licensed through the GNU GPLv3. For more information and license details
+have a look at the [full license] (https://www.gnu.org/licenses/gpl.txt).
+
+## Aknowledgements
+Everyone being patient with me while messing around with code, getting inspiration and doing
+one of the million other things I am doing.
