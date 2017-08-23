@@ -84,5 +84,21 @@ $colors: (
 // Fonts
 // --------------------------------------------------
 
-@import "roboto";
-@import "noto-sans";
+// @import "roboto";
+// @import "noto-sans";
+
+@import "../assets/fonts/Comfortaa-Regular.ttf";
+
+$font-family-base: 'Comfortaa-Regular';
+$font-family-ios-base: 'Comfortaa-Regular';
+$font-family-md-base: 'Comfortaa-Regular';
+$font-family-wp-base: 'Comfortaa-Regular';
+
+@font-face {
+  font-family: Comfortaa-Regular;
+  src: url("../assets/fonts/Comfortaa-Regular.ttf");
+  }
+  
+  body, span, button, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Comfortaa-Regular' !important;
+  }

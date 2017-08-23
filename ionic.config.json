@@ -1,5 +1,8 @@
 {
-  "name": "thewedding",
-  "app_id": "",
-  "type": "ionic-angular"
+  "name": "The Wedding",
+  "app_id": "83f2a74c",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }

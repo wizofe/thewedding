@@ -1,0 +1,97 @@
+<!--
+  Generated template for the ChurchPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Έρχομαι από</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+    <div padding>
+        <ion-segment [(ngModel)]="location">
+          <ion-segment-button value="athens">
+            Αθήνα
+          </ion-segment-button>
+
+          <ion-segment-button value="xalkis">
+            Χαλκίδα
+          </ion-segment-button>
+        </ion-segment>
+      </div>
+      
+      <div [ngSwitch]="location">
+        <ion-list *ngSwitchCase="'athens'">
+              <ion-card>
+                  <img src="img/athens.jpg"/>
+                  <ion-card-content>
+                    <ion-card-title>
+                      Βζουυυμ...
+                      </ion-card-title>
+                    <p>
+                      Ακολουθείτε την Εθνική Οδό Αθηνών Κορίνθου.
+                      Συνεχίστε με κατεύθυνση προς Τρίπολη και 
+                      ακολουθείστε τις ταμπέλες προς Ναύπλιο.
+                    </p><p>
+                      Υπολογίστε 2 ώρες ταξιδιού.
+                    </p>
+                  </ion-card-content>
+                </ion-card>
+
+                <ion-card>
+                    <img src="img/directions.jpg"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Φτάσατε
+                        </ion-card-title>
+                      <p>
+                        Αφού μπείτε στην πόλη του Ναυπλίου ακολουθείστε τις ταμπέλες
+                        για Αρβανιτιά. Θα βρείτε χώρους στάθμευσης τριγύρω όπως και ψηλότερα
+                        προς το Ξενία Παλάς και το Ελικοδρόμιο. 
+                      </p><p>
+                        Η Εκκλησία είναι οι Άγιοι Ανάργυροι.
+                      </p>
+                    </ion-card-content>
+                  </ion-card>
+        </ion-list>
+      
+        <ion-list *ngSwitchCase="'xalkis'">
+            <ion-card>
+                <img src="img/xalkis.jpg"/>
+                <ion-card-content>
+                  <ion-card-title>
+                    Βροούμμμ..
+                    </ion-card-title>
+                  <p>
+                    Ακολουθείτε τοην Εθνική Οδό με κατεύθυνση την Κόρινθο. Συνεχίστε
+                    με διεύθυνση προς Τρίπολη και ακολουθείστε τις ταμπέλες προς Ναύπλιο.
+                  </p><p>
+                    Υπολογίστε χρόνο ταξιδίου περίπου 2 ώρες και 40 λεπτά
+                  </p>
+                </ion-card-content>
+              </ion-card>
+
+              <ion-card>
+                  <img src="img/directions.jpg"/>
+                  <ion-card-content>
+                    <ion-card-title>
+                      Φτάσατε
+                      </ion-card-title>
+                    <p>
+                      Αφού μπείτε στην πόλη του Ναυπλίου ακολουθείστε τις ταμπέλες
+                      για Αρβανιτιά. Θα βρείτε χώρους στάθμευσης τριγύρω όπως και ψηλότερα
+                      προς το Ξενία Παλάς και το Ελικοδρόμιο. 
+                    </p><p>
+                      Η Εκκλησία είναι οι Άγιοι Ανάργυροι.
+                    </p>
+                  </ion-card-content>
+                </ion-card>
+        </ion-list>
+      </div>
+</ion-content>
