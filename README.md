@@ -34,7 +34,7 @@ Substitute ios for android if not on a Mac.
 * [macOS X] (https://www.apple.com/macos/sierra/)  
 
 ## Authors
-* Ioannis Valasakis aka wizofe - Design and Code
+* Ioannis Valasakis <code@wizofe.uk> aka wizofe - Design and Code
 
 ## License
 This funny project is licensed through the GNU GPLv3. For more information and license details
@@ -42,4 +42,4 @@ have a look at the [full license] (https://www.gnu.org/licenses/gpl.txt).
 
 ## Aknowledgements
 Everyone being patient with me while messing around with code, getting inspiration and doing
-one of the million other things I am doing.
+one of the million other things I am doing :satisfied:
